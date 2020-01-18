@@ -1,4 +1,4 @@
-Dylan Hand:
+dylan:
   name      : Dylan Hand
   url       : https://dylanhand.com
   # avatar    : https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg
@@ -11,7 +11,7 @@ Dylan Hand:
   linkedin  : dylanhand # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
   github    : dylanhand # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   
-David Crow:
+david:
   name      : David Crow
   # url       : https://dylanhand.com
   # avatar    : https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg
