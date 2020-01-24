@@ -8,7 +8,7 @@ show_author_profile: true
 
 You're not alone if you've spent countless hours trying to figure out why views aren't showing up as expected. Is the frame being set in the right place? Did I remember to add it as a subview? Are my layout constraints borked? After nearly 10 years of making iOS apps, I still get tricked by view layouts.
 
-To make matters worse, sometimes it's not possible to use Xcode's built-in view debugger, like when you're working on an App Extension. Lately I've been working on [a custom keyboard for indiginous languages](), and several times have found myself wishing I could use the [view debugger](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/ExaminingtheViewHierarchy.html) to see what was wrong.
+To make matters worse, sometimes it's not possible to use Xcode's built-in view debugger, like when you're working on an App Extension. Lately, I've been working on [a custom keyboard for indigenous languages](), and several times have found myself wishing I could use the [view debugger](https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/ExaminingtheViewHierarchy.html) to see what was wrong.
 
 Luckily it's easy to make a function that prints all views attached to a given view (and associated layout constraints, if you like).
 
@@ -87,7 +87,7 @@ And you'll get an output such as:
             <UIView: 0x7fdc86e07f20; frame = (0 0; 3 36); layer = <CALayer: 0x600003e48e20>>
 ```
 
-From here, we could take it a step further and also print autolayout constraints.
+From here, we could take it a step further and also print auto layout constraints.
 
 ```swift 
 ... 
