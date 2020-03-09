@@ -10,7 +10,7 @@ Floating action buttons are versatile components that implement a visually pleas
 
 We'll create a floating action button in this example that can be used to navigate to another view in a navigation stack. This is a common pattern that can be useful when it's necessary to add items to a list view and the items require user input that can't be collected inline.
 
-First, we'll create a button view `FloatingAddButtonView`. This view will encapsulate the look of the button without actually implementing standard button action functionality. This is intentional design decision as a button action is inherited by default from a [NavigationLink](https://developer.apple.com/documentation/swiftui/navigationlink]) a view is embedded.
+First, we'll create a button view `FloatingAddButtonView`. This view will encapsulate the look of the button without actually implementing standard button action functionality. This is an intentional design decision as a button action is inherited by default from a [NavigationLink](https://developer.apple.com/documentation/swiftui/navigationlink]) when a view is embedded.
 
 ```swift
     struct FloatingAddButtonView: View {
